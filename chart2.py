@@ -1,9 +1,9 @@
-from analysis_text1 import *
+from analysis_text import *
 import pylab
 import time
 dat = []
-ylis = [25,12.5,8.75,7.5,5,5,3.75,3.75,2.6,2.6,2.6,2.6,2,2,2,2,2,2,2,2]
 dat.extend(b)
+ylis = [25,12.5,8.75,7.5,5,5,3.75,3.75,2.6,2.6,2.6,2.6,2,2,2,2,2,2,2,2]
 e = 2
 pylab.ion()
 for n in range(10):
